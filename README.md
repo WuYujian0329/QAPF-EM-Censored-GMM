@@ -76,17 +76,3 @@ hooks for the manuscript-scale 30-repeat simulation, real-data, ablation,
 sensitivity, and semi-synthetic result pipelines. This keeps every unresolved
 experimental choice visible rather than claiming an exact regeneration of all
 thesis tables from a compact release archive.
-
-## Before a public GitHub release
-
-1. Add the authors' chosen open-source license.
-2. Complete the experiment factories and fixed-seed result generators.
-3. Compare regenerated tables against the thesis values using documented
-   numerical tolerances.
-4. Add a release tag and archive the tagged version with a DOI service if a
-   permanent citation is needed.
-
-## Citation
-
-Please cite the accompanying thesis or article. Update `CITATION.cff` with the
-final bibliographic record and DOI after publication.
